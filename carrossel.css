@@ -1,0 +1,17 @@
+
+.carrossel{
+    width: 100%;
+    padding: 2px 0px;
+    color: #3d5aff;
+    display: inline-block;
+    font-weight: 600;
+    display: flex;
+    background-color: white;
+    gap: 19px;
+    animation: slideAnimation 12s infinite linear alternate;
+}
+
+@keyframes slideAnimation {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(100%); }
+  }

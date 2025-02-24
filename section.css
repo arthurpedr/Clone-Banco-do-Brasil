@@ -1,0 +1,147 @@
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+/*SECTION SERVIÇOS*/
+
+.Servicos{
+    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: #3d5aff;
+}
+
+.caixa-servicos{
+    background-color: white;
+    gap: 15px;
+    text-align: center; 
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);   
+}
+
+.caixa-servicos > button{
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #3d5aff;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.caixa-servicos > button:hover{
+    opacity: 80%;
+}
+
+/*SECTIONS FINANÇAS*/
+
+.Financas{
+    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.text-Financas{
+    width: 700px;
+    border-left: 5px solid #3d5aff;
+    padding: 0px 20px;
+}
+
+.text-Financas > p{
+    padding: 10px 0px;
+}
+
+.conteiner-caixa{
+    display: flex;
+}
+
+.caixa-Financas{
+    gap: 15px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.caixa-Financas > button{
+    padding: 10px 10px;
+    border-radius: 25px;
+    background-color: #3d5aff;
+    border: none;
+    color: white;
+    font-weight: 700;
+}
+
+.caixa-Financas > button:hover{
+    opacity: 80%;
+}
+
+/*SECTION SOBRE-NOS*/
+
+.Sobre-nos{
+    background-color: rgba(128, 128, 128, 0.247);
+    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.text-sobre{
+    border-left: 5px solid #3d5aff;
+    padding: 0px 20px;
+    width: 700px;
+}
+
+.text-sobre > p{
+    padding: 10px 0px;
+}
+
+.text-sobre > p > span{
+    font-weight: 800;
+}
+
+.conteiner-sobre{
+    display: flex;
+    gap: 10px;
+    cursor: grab;
+}
+
+.conteiner-sobre > p{
+    font-size: 40px;
+}
+
+.caixa-sobre{
+    width: 250px;
+    height: 250px;
+    gap: 15px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.caixa-sobre > p >span{
+    font-weight: 700;
+}

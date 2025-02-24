@@ -1,0 +1,40 @@
+footer{
+    width: 100%;
+}
+
+.Atendimento{
+    background-color: yellow;
+}
+
+.Atendimento-SAC{
+    padding: 20px 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Atendimento-caixa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 45px;
+}
+
+.box{
+    font-weight: 600;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.box > p:hover{
+    opacity: 50%;
+    cursor: pointer;
+}
+
+
