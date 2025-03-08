@@ -16,8 +16,10 @@ section{
 }
 
 .caixa-servicos{
+    width: 350px;
+    height: 350px;
     background-color: white;
-    gap: 15px;
+    gap: 18px;
     text-align: center; 
     border-radius: 25px;
     padding: 20px;
