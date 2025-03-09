@@ -14,7 +14,7 @@ body{
 
 header {
     width: 100%;
-    background-color: yellow;
+    background-color: #FCFC30;
     border-bottom: 2px solid gray;
     display: flex;
     justify-content: space-around;
