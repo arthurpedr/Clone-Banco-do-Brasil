@@ -5,6 +5,11 @@ section{
 }
 
 /*SECTION SERVIÇOS*/
+@media (max-width:1307px){
+    .Servicos{
+        flex-wrap: wrap;
+    }
+}
 
 .Servicos{
     padding: 0px 60px;
@@ -27,7 +32,12 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);   
+    transform: scale(0.9);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);  
+}
+
+.caixa-servicos:hover {
+    transform: scale(1.1);
 }
 
 .caixa-servicos > button{

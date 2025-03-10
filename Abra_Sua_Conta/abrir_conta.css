@@ -1,11 +1,11 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat", sans-serif;
 }
 
-body{
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,12 +21,12 @@ header {
     padding: 10px;
 }
 
-.inicio > img{
+.inicio>img {
     width: 60px;
     border: 2px solid #3d5aff;
 }
 
-.text{
+.text {
     padding: 0px 60px;
     color: #3d5aff;
 }
@@ -41,7 +41,7 @@ header {
     align-items: center;
 }
 
-form{
+form {
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -52,12 +52,12 @@ form{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-.input-box{
+.input-box {
     position: relative;
     border-bottom: 2px solid black;
 }
 
-.input-box label{
+.input-box label {
     position: absolute;
     top: 50%;
     left: 0;
@@ -68,7 +68,7 @@ form{
     transition: 0.15s ease;
 }
 
-.input-box input{
+.input-box input {
     width: 100%;
     height: 40px;
     background: transparent;
@@ -78,24 +78,24 @@ form{
     color: black;
 }
 
-.input-box input:focus + label,
-.input-box input:not(:placeholder-shown) + label {
+.input-box input:focus+label,
+.input-box input:not(:placeholder-shown)+label {
     font-size: 0.8rem;
     top: 10px;
     transform: translateY(-120%);
 }
 
-.one h2{
+.one h2 {
     color: #3d5aff;
 }
 
 /*form 02*/
 
-.two h2{
+.two h2 {
     color: #3d5aff;
 }
 
-button{
+button {
     padding: 15px;
     font-size: 18px;
     background-color: #3d5aff;
@@ -103,11 +103,11 @@ button{
     border: none;
 }
 
-button:hover{
+button:hover {
     opacity: 80%;
 }
 
-form a{
+form a {
     text-align: center;
     text-decoration: none;
 }
