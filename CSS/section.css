@@ -33,6 +33,7 @@ section{
     justify-content: center;
     flex-direction: column;
     transform: scale(0.9);
+    transition: 1s;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);  
 }
 
