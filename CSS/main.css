@@ -47,8 +47,10 @@ main{
     color: #FFF;
     gap: 8px;
     font-weight: 700;
+    transition: 1s;
 }
 
 .mestre>a:hover{
-    opacity: 80%;
+    transform: translateY(-25%);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
